@@ -1,0 +1,16 @@
+type Universite {
+    idUniv :Int
+    nomUniv:String
+}
+type Query {
+    allUniversites:[Universite]
+}
+
+type Mutation {
+    insert(     idUniv :Int , nomUniv:String): Boolean
+}
+
+schema  {
+    query :Query
+    mutation: Mutation
+}

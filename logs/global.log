@@ -1,0 +1,64 @@
+2023-04-27 22:57:07.630  INFO 15668 --- [main] tn.spring.kaddem.KaddemApplication       : Starting KaddemApplication using Java 1.8.0_73 on DESKTOP-FRKV3QQ with PID 15668 (C:\Worker\esprit\Architecture des SI II springboot\TP\TP-Kaddem\EX2-with-service\kaddem\target\classes started by HP in C:\Worker\esprit\Architecture des SI II springboot\TP\TP-Kaddem\EX2-with-service\kaddem)
+2023-04-27 22:57:07.670  INFO 15668 --- [main] tn.spring.kaddem.KaddemApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 22:57:11.840  INFO 15668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 22:57:12.130  INFO 15668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 251 ms. Found 6 JPA repository interfaces.
+2023-04-27 22:57:14.911  INFO 15668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2023-04-27 22:57:14.935  INFO 15668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 22:57:14.936  INFO 15668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-04-27 22:57:15.362  INFO 15668 --- [main] o.a.c.c.C.[.[localhost].[/kaddem]        : Initializing Spring embedded WebApplicationContext
+2023-04-27 22:57:15.363  INFO 15668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7390 ms
+2023-04-27 22:57:15.995  INFO 15668 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 22:57:16.121  INFO 15668 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-04-27 22:57:16.595  INFO 15668 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-27 22:57:16.919  INFO 15668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-27 22:57:17.278  INFO 15668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-27 22:57:17.307  INFO 15668 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-27 22:57:20.407  INFO 15668 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 22:57:20.428  INFO 15668 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 22:57:24.919  WARN 15668 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 22:57:25.647  INFO 15668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path '/kaddem'
+2023-04-27 22:57:25.847  INFO 15668 --- [main] tn.spring.kaddem.KaddemApplication       : Started KaddemApplication in 19.853 seconds (JVM running for 23.534)
+2023-04-27 22:57:26.033  INFO 15668 --- [main] t.s.kaddem.appRunners.bean_ResetData     : Bean One run method Started !!
+2023-04-27 22:57:26.034  INFO 15668 --- [main] t.s.kaddem.appRunners.BeanRunnerTwo      : Bean Two run method Started !!
+2023-04-27 22:58:37.229  INFO 15668 --- [http-nio-0.0.0.0-8085-exec-1] o.a.c.c.C.[.[localhost].[/kaddem]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 22:58:37.229  INFO 15668 --- [http-nio-0.0.0.0-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-27 22:58:40.365  INFO 15668 --- [http-nio-0.0.0.0-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3135 ms
+2023-04-27 22:58:42.785  INFO 15668 --- [http-nio-0.0.0.0-8085-exec-1] t.s.kaddem.configuration.loggingAspect   :  AfterReturning of method Insert : 
+2023-04-27 22:58:42.786  INFO 15668 --- [http-nio-0.0.0.0-8085-exec-1] t.s.kaddem.configuration.loggingAspect   :  Out of method Insert : 
+2023-04-27 23:01:28.084  INFO 15668 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 23:01:28.090  INFO 15668 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-27 23:01:28.107  INFO 15668 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-27 23:01:53.369  INFO 552 --- [main] tn.spring.kaddem.KaddemApplication       : Starting KaddemApplication using Java 1.8.0_73 on DESKTOP-FRKV3QQ with PID 552 (C:\Worker\esprit\Architecture des SI II springboot\TP\TP-Kaddem\EX2-with-service\kaddem\target\classes started by HP in C:\Worker\esprit\Architecture des SI II springboot\TP\TP-Kaddem\EX2-with-service\kaddem)
+2023-04-27 23:01:53.393  INFO 552 --- [main] tn.spring.kaddem.KaddemApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 23:01:55.888  INFO 552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 23:01:56.096  INFO 552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 182 ms. Found 6 JPA repository interfaces.
+2023-04-27 23:01:58.476  INFO 552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2023-04-27 23:01:58.508  INFO 552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 23:01:58.509  INFO 552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-04-27 23:01:58.905  INFO 552 --- [main] o.a.c.c.C.[.[localhost].[/kaddem]        : Initializing Spring embedded WebApplicationContext
+2023-04-27 23:01:58.906  INFO 552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5358 ms
+2023-04-27 23:01:59.478  INFO 552 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 23:01:59.606  INFO 552 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-04-27 23:02:00.049  INFO 552 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-27 23:02:00.365  INFO 552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-27 23:02:00.788  INFO 552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-27 23:02:00.823  INFO 552 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-27 23:02:03.501  INFO 552 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 23:02:03.524  INFO 552 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 23:02:06.944  WARN 552 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 23:02:07.611  INFO 552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path '/kaddem'
+2023-04-27 23:02:07.764  INFO 552 --- [main] tn.spring.kaddem.KaddemApplication       : Started KaddemApplication in 15.797 seconds (JVM running for 18.699)
+2023-04-27 23:02:07.954  INFO 552 --- [main] t.s.kaddem.appRunners.bean_ResetData     : Bean One run method Started !!
+2023-04-27 23:02:07.955  INFO 552 --- [main] t.s.kaddem.appRunners.BeanRunnerTwo      : Bean Two run method Started !!
+2023-04-27 23:02:25.589  INFO 552 --- [http-nio-0.0.0.0-8085-exec-2] o.a.c.c.C.[.[localhost].[/kaddem]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 23:02:25.597  INFO 552 --- [http-nio-0.0.0.0-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-27 23:02:33.054  INFO 552 --- [http-nio-0.0.0.0-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7455 ms
+2023-04-27 23:02:37.252  INFO 552 --- [http-nio-0.0.0.0-8085-exec-2] t.s.kaddem.configuration.loggingAspect   :  AfterReturning of method Insert : 
+2023-04-27 23:02:37.253  INFO 552 --- [http-nio-0.0.0.0-8085-exec-2] t.s.kaddem.configuration.loggingAspect   :  Out of method Insert : 
+2023-04-27 23:02:48.717  INFO 552 --- [http-nio-0.0.0.0-8085-exec-6] t.s.kaddem.configuration.loggingAspect   :  AfterReturning of method Insert : 
+2023-04-27 23:02:48.718  INFO 552 --- [http-nio-0.0.0.0-8085-exec-6] t.s.kaddem.configuration.loggingAspect   :  Out of method Insert : 
+2023-04-27 23:03:20.896  INFO 552 --- [http-nio-0.0.0.0-8085-exec-5] t.s.kaddem.configuration.loggingAspect   :  AfterReturning of method Insert : 
+2023-04-27 23:03:20.897  INFO 552 --- [http-nio-0.0.0.0-8085-exec-5] t.s.kaddem.configuration.loggingAspect   :  Out of method Insert : 
+2023-04-27 23:03:58.292  INFO 552 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 23:03:58.298  INFO 552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-27 23:03:58.316  INFO 552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
