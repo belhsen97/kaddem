@@ -1,4 +1,4 @@
-# kaddem
+
 
 # Objective 
 In order to prepare for the new demands of the job market, we propose to work on the "KADDEM" project.
@@ -12,7 +12,7 @@ This project defines a program for allocating students to teams in each departme
 - The contract is simply a moral commitment between the student and his university 🡺 so he must honor his commitment by taking an active part in his team's development.
 
 ### Built With
-* [![Angular][Angular.io]][Angular-url]
+* [![Spring Boot][Spring-Boot.io]][Spring-Boot-url]
 
 ## Contact
 Created by Bachouch Belhsen
